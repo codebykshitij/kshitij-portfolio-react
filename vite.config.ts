@@ -4,5 +4,5 @@ import compression from 'vite-plugin-compression';
 
 export default defineConfig(({ mode }) => ({
   plugins: [react(), compression()],
-  base: mode === 'production' ? './' : '/', 
+  base: '/', 
 }));
